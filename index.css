@@ -1,0 +1,76 @@
+.grid-container{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 1500px;
+    gap: 10px;
+    font-size: medium;
+    padding: 5px;
+    text-align: center;
+}
+.grid{
+   height: auto;
+   background-color: grey; 
+   background-size: cover;
+   background-position: center;
+}
+.text{
+    text-align: center;
+}
+body{
+    background-image: url('/img/hal-gatewood-iPl3q-gEGzY-unsplash.jpg');
+}
+.item1{
+    background-image: url('/img/viktor-koichew-4pq3qiOIET8-unsplash.jpg');
+}
+.item2{
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+    background-image: url('/img/vitor-camilo-7NoYTT9OmiI-unsplash\ -\ Copy\ \(2\).jpg');
+}
+.item3{
+    background-image: url('/img/national-cancer-institute-O13g6-Gtb5o-unsplash.jpg');
+}
+.item4{
+    grid-row: 3 / 5;
+    grid-column: 1 / 2 ;
+    background-image: url('/img/ceyda-ciftci-6MGhkYEgmwk-unsplash\ -\ Copy.jpg');
+}
+.item5{
+    background-image: url('/img/obi-pixel8propix--aq8RtAjTeI-unsplash.jpg');
+}
+.item6{
+    background-image: url('/img/mockup-graphics-i1iqQRLULlg-unsplash.jpg');
+}
+.grid-container2{
+    display: grid;
+    background-color: whitesmoke;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 800px;
+    gap: 10px;
+    font-size: medium;
+    padding: 5px;
+    text-align: center;
+}
+.grid-item1{
+    height: auto;
+    background-color: red;
+}
+.grid-item2{
+    height: auto;
+    background-color: yellowgreen;
+}
+.grid-container3{
+    display: grid;
+    background-color: wheat;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 800px;
+    gap: 10px;
+    font-size: medium;
+    padding: 5px;
+    text-align: center;
+}

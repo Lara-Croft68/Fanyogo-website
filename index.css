@@ -46,31 +46,74 @@ body{
 }
 .grid-container2{
     display: grid;
-    background-color: whitesmoke;
+    background-color: white;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-    height: 800px;
+    height: 1500px;
     gap: 10px;
     font-size: medium;
     padding: 5px;
     text-align: center;
 }
-.grid-item1{
-    height: auto;
-    background-color: red;
+
+.itemA{
+    background-image: url('/img/national-cancer-institute-NNpo-liY5aU-unsplash.jpg');
 }
-.grid-item2{
-    height: auto;
-    background-color: yellowgreen;
+.itemB{
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+    background-image: url('/img/national-cancer-institute-w7Pby5bDKW4-unsplash\ \(1\).jpg');
+}
+.itemC{
+    background-image: url('/img/alexander-grey-FEPfs43yiPE-unsplash\ -\ Copy.jpg');
+}
+.itemD{
+    grid-row: 3 / 5;
+    grid-column: 1 / 2 ;
+    background-image: url(/img/jakayla-toney-IRGJenv7TxE-unsplash.jpg);
+}
+.itemE{
+    background-image: url('/img/david-trinks-mLaIFEtUZFs-unsplash.jpg');
+}
+.itemF{
+    background-image: url('/img/national-cancer-institute-3-WjdfOr5Ag-unsplash.jpg');
 }
 .grid-container3{
     display: grid;
-    background-color: wheat;
+    background-color: white;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-    height: 800px;
+    height: 1500px;
     gap: 10px;
     font-size: medium;
     padding: 5px;
     text-align: center;
+}
+.itemG{
+    background-image: url('/img/72596e499f868bdfce8220559315fcf5.jpg');
+}
+.itemH{
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+    background-image: url('/img/arpad-czapp-tvP6pCnq9iI-unsplash\ -\ Copy.jpg');
+}
+.itemI{
+    background-image: url('/img/5c004b7ee153412f3e4a6604c29a22db\ -\ Copy.jpg');
+}
+.itemJ{
+    grid-row: 3 / 5;
+    grid-column: 1 / 2 ;
+    background-image: url('/img/nathaniel-yeo-gUZo-UA0VGQ-unsplash.jpg');
+}
+.itemK{
+    background-image: url('/img/8948890ef36a7ac7ae555b286f30dffa\ -\ Copy.jpg');
+}
+.itemL{
+    background-image: url('/img/1660aadf3c646f7fcea0998b923f944b.jpg');
+}
+.foot{
+    display: block;
+    text-align: center;
+    height: 100px;
+    
 }

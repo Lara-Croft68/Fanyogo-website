@@ -122,19 +122,33 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #a5337d;
 }
 li{
     float: right;
 }
+.nav{
+    /* background-color: #a5337d; */
+    
+    
+    float: right;
+    background-color: #a5337d;
+}
+.nav-head{
+    background-color: #a5337d;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 li a{
-    display: block;
+    /* display: block; */
     color: white;
     text-align: center;
     padding: 90px 80px;
     text-decoration: none;
     font-size: x-large;
 }
-li a :hover{
+a:hover{
     background-color: white;
+    color: black;
 }
